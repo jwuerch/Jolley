@@ -1,0 +1,18 @@
+.navbar li > a {
+  color:gray;
+}
+.navbar > li:nth-child(1) > a {
+  font-weight:700;
+  color:blue;
+}
+.navbar > li:nth-child(2) > a {
+  font-weight:700;
+  color:red;
+}
+.navbar > li:nth-child(3) > a {
+  font-weight:700;
+  color:green;
+}
+#header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap, #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
+    height:60px;
+}

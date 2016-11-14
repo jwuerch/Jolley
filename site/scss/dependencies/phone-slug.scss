@@ -1,0 +1,70 @@
+/** PHONE SLUG **/
+
+$background: blue;
+$text-color: #FFF;
+$phone-color: #FFF;
+
+
+.phone-slug {
+  background: $background;
+  padding-top:25px;
+  padding-bottom:0px;
+}
+.phone-slug h6 {
+  font-size:18px;
+  color:$text-color;
+  line-height:19px;
+  font-weight:400;
+  margin-bottom:4px;
+}
+.phone-slug .new-hotline {
+  font-size:36px;
+  font-weight:700;
+  line-height:25px;
+}
+.phone-slug .new-hotline a {
+  color:$phone-color;
+}
+.device-xs .phone-slug .new-hotline, .device-xxs .phone-slug .new-hotline {
+  margin-bottom:20px;
+}
+.phone-slug .old-hotline {
+  font-size:21px;
+  color:#FFF;
+  margin-top:15px;
+}
+.phone-slug .old-hotline a {
+  color:$phone-color;
+  font-weight:700;
+}
+.phone-slug  .col-sm-6.tleft {
+  border-left:1px solid #FFF;
+}
+.phone-slug .button {
+  margin:2.5px 0;
+}
+.device-xxs .phone-slug .button {
+  padding-left:15px;
+  padding-right:15px;
+  width:100%;
+}
+
+.device-xs .phone-slug h6, .device-xxs .phone-slug h6 {
+  font-size:24px;
+  font-weight:300;
+  margin-bottom:15px;
+}
+
+.device-xs .phone-slug .col-sm-6.tright, .device-xxs .phone-slug .col-sm-6.tright {
+  text-align:center !important;
+}
+.device-xs .phone-slug .col-sm-6.tleft, .device-xxs .phone-slug .col-sm-6.tleft {
+  text-align:center !important;
+  border-left:none;
+}
+
+.device-xs .old-hotline, .device-xxs .old-hotline {
+  font-size:24px;
+  font-weight:300;
+  line-height:35px !important;
+}

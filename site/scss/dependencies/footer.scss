@@ -1,0 +1,50 @@
+$font-color: #FFF;
+$background: grey;
+
+#copyrights {
+  background:$background;
+}
+
+a.social-icon.si-colored:hover {
+  text-decoration:none;
+}
+
+a.social-icon.si-colored {
+  background:#FFF;
+  margin-right:15px;
+}
+
+.copyright, .copyright a {
+  color:$font-color;
+  font-size:14px;
+  font-weight:300;
+  font-family:'Roboto Condensed', sans-serif;
+  font-weight:300;
+}
+
+.device-xs #copyrights .col_half:last-child, .device-xxs #copyrights .col_half:last-child {
+  display:block;
+  margin-top:10px;
+}
+
+.device-xxs div.fright.clearfix {
+  text-align:center !important;
+}
+
+.device-xxs #copyrights .social-icon {
+  position:relative;
+  left:22%;
+}
+.device-xs #copyrights > div > div.col_half.col_last > div.clearfix {
+  display:flex;
+  float:none !important;
+  justify-content:center;
+}
+
+.device-xxs #copyrights > div > div.col_half.col_last > div.clearfix {
+  left:-23%;
+  display:flex;
+  float:none !important;
+  justify-content:center;
+  position:relative;
+}

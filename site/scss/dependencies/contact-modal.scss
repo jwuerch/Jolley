@@ -1,0 +1,38 @@
+/** Contact Modal **/
+
+.form-error {
+  color: #D56724;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 30px;
+  display: none;
+}
+button.close {
+  font-size:50px;
+  margin-top:-10px;
+  color:#000;
+  opacity:1;
+  border-bottom:0px;
+}
+
+h4.modal-title {
+  font-size:22px;
+  text-transform:capitalize;
+}
+.modal h5 {
+  font-size:16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:300;
+
+}
+.modal .custom-btn {
+  width:100%;
+  letter-spacing:0;
+}
+.modal-header .close {
+  margin-top:-10px;
+}
+
+#contact-modal .modal-dialog {
+  background:#FFF;
+  border-radius:5px;
+}

@@ -1,0 +1,85 @@
+
+/** CONTACT **/
+
+$p-color: #6F6D6A;
+$click-map-color:#846A20;
+
+
+#contact-form-overlay-mini {
+  padding-top:15px;
+  padding-bottom:15px;
+}
+#contact img {
+  margin-bottom:20px;
+}
+#contact p {
+  color:$p-color;
+  font-size:16px;
+  line-height:21px;
+}
+
+#contact .click-map  {
+  color:$click-map-color;
+  margin-top:-5px;
+  font-size:16px;
+  text-decoration:underline;
+}
+#contact .text-phone-1 {
+  font-size: 36px;
+  font-weight:900;
+  font-family: 'Lato', sans-serif;
+  color: #CBA357;
+  margin-bottom:20px;
+}
+.device-xxs #contact .text-phone-1 {
+  font-size:26px;
+}
+.device-xxs #contact .text-phone-2 {
+  font-size:23px;
+}
+.device-xxs #contact .button {
+  font-size:16px;
+  width:100%;
+  padding-left:15px;
+  padding-right:15px;
+}
+
+#contact .text-phone-2 {
+  font-size: 26px;
+  font-weight:900;
+  font-family: 'Lato', sans-serif;
+  color: #CBA357;
+}
+.patient-hotline {
+  margin-bottom:7px;
+}
+#contact .button {
+  width:100%;
+  letter-spacing:0;
+  font-size:18px;
+  margin-bottom:20px;
+  padding-top:2px;
+}
+#contact-form-overlay-mini > div:nth-child(2) > a.click-map:hover {
+  color:#846A20;
+}
+#contact-form-overlay-mini {
+  border-radius: 12px;
+}
+#contact-form-overlay-mini > div:nth-child(2) > a:nth-child(5):hover, #contact-form-overlay-mini > div:nth-child(2) > a:nth-child(8):hover {
+  text-decoration:none;
+}
+#contact {
+  max-height:600px;
+}
+.device-xxs #contact-form-overlay-mini {
+  padding-left:15px;
+  padding-right:15px;
+}
+.device-xs #contact-form-overlay-mini, .device-xxs #contact-form-overlay-mini {
+  box-shadow:none;
+}
+#google-map {
+  height:100%;
+  border-bottom:5px solid #FFF;
+}

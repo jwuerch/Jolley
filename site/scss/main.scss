@@ -1,0 +1,71 @@
+// Canvas Dependencies //
+
+@import "dependencies/bootstrap.scss";
+@import "dependencies/style.scss";
+@import "dependencies/swiper.scss";
+@import "../css/font-icons";
+@import "dependencies/animate.scss";
+@import "dependencies/responsive.scss";
+@import "dependencies/navbar.scss";
+@import "dependencies/footer.scss";
+@import "dependencies/phone-slug.scss";
+@import "dependencies/contact-modal.scss";
+@import "dependencies/specials.scss";
+@import "dependencies/location-section.scss";
+
+
+// End Canvas Dependencies //
+
+
+// Variables to define first //
+
+$primary-font: 'Lato', sans-serif;
+$secondary-font: 'Open Sans', sans-serif;
+$third-font: 'Roboto Condensed', sans-serif;
+$button-color: orange;
+$button-hover:gray;
+
+// CSS //
+
+body {
+  font-family:$primary-font;
+}
+
+h1 {
+  font-size:64px;
+}
+
+h2 {
+  font-size:48px;
+}
+
+h3 {
+  font-size:36px;
+}
+
+h4 {
+  font-size:28px;
+}
+
+h5 {
+  font-size:24px;
+}
+
+h6 {
+  font-size:20px;
+}
+
+p {
+  font-size:18px;
+}
+
+.button {
+  background:$button-color;
+  padding-top:2px;
+}
+.button:hover {
+  background:$button-hover
+}
+.content-wrap {
+  padding:0;
+}
