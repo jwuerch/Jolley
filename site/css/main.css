@@ -7956,7 +7956,7 @@ body:not(.device-touch) #page-menu nav li a {
 -----------------------------------------------------------------*/
 @media (min-width: 992px) {
   .side-header #header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 10;
@@ -8062,7 +8062,7 @@ body:not(.device-touch) #page-menu nav li a {
     -o-transform: rotate(90deg);
     transform: rotate(90deg); }
   .side-header:not(.open-header) #wrapper {
-    margin: 0 0 0 260px !important;
+    margin: 0;
     width: auto !important; }
   .side-header:not(.open-header) #wrapper .container {
     width: auto;
@@ -26115,6 +26115,9 @@ h4.modal-title {
 #google-map {
   height: 100%;
   border-bottom: 5px solid #FFF; }
+
+#slider {
+  margin-left: 260px; }
 
 body {
   font-family: "Lato", sans-serif; }
