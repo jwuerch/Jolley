@@ -2412,7 +2412,6 @@ body:not(.device-touch) #page-menu nav li a {
 	display: block;
 	content: '';
 	width: 20%;
-	border-bottom: 1px solid #E5E5E5;
 }
 
 .side-header .center #logo:after { margin: 0 auto; }
@@ -2429,7 +2428,10 @@ body:not(.device-touch) #page-menu nav li a {
 
 .side-header #primary-menu ul li {
 	float: none;
-	margin: 15px 0 0;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #CFBDA8;
+
 }
 
 .side-header #primary-menu ul li:first-child { margin-top: 0; }
@@ -2438,7 +2440,6 @@ body:not(.device-touch) #page-menu nav li a {
 	height: 25px;
 	line-height: 25px;
 	padding: 0;
-	text-transform: uppercase;
 }
 
 .side-header #primary-menu ul li i { line-height: 24px; }
