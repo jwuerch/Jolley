@@ -1,3 +1,31 @@
 #slider {
-  margin-left:260px;
+}
+
+#slide-1 h2 {
+  font-family: "PT Serif", sans-serif;
+  font-size: 52px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 55px;
+  text-shadow: 2px 2px 8px rgba(10,36,7,0.82) !important;
+  margin-bottom:15px;
+  font-weight:700;
+}
+#slide-1 p {
+  /* Dentistry for Today’: */
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 30px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 30px;
+  text-shadow: 2px 2px 8px rgba(10,36,7,0.82) !important;
+  margin-bottom:30px;
+}
+
+#slide-1 .slider-caption.slider-caption-right {
+  top:320px !important;
+}
+#slide-1 {
+  background-position-x:20%;
+  background-position-y:0%;
 }

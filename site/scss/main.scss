@@ -24,7 +24,7 @@ $primary-font: 'Lato', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
 $third-font: 'Roboto Condensed', sans-serif;
 $button-color: #E17009;
-$button-hover:gray;
+$button-hover:#B55E0F;
 
 // CSS //
 
@@ -69,6 +69,7 @@ p {
   font-size:21px;
   font-weight:400;
   font-family: "PT Sans Narrow", sans-serif;
+  border-radius: 39px;
 }
 .button:hover {
   background:$button-hover
