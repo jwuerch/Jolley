@@ -26446,6 +26446,25 @@ h4.modal-title {
   line-height: 20px;
   text-decoration: underline; }
 
+#patient-forms {
+  padding: 60px 0;
+  background-image: linear-gradient(-90deg, #FFFFFF 0%, #CCD6D2 85%); }
+
+#patient-forms h2 {
+  color: #6588B1;
+  letter-spacing: 0;
+  line-height: 41px; }
+
+#patient-forms .button-2 {
+  font-size: 21px;
+  color: #6588B1;
+  letter-spacing: 0.5px;
+  line-height: 21px;
+  background: #F4F2EF;
+  border: 2px solid #6588B1;
+  border-radius: 39px;
+  padding-top: 10px; }
+
 body {
   font-family: "Lato", sans-serif; }
 
