@@ -26252,10 +26252,11 @@ h4.modal-title {
 
 #patient-reviews {
   padding: 80px;
-  background: url("../images/reviews-bkgd.jpg"); }
+  background: url("../images/reviews-bkgd.jpg");
+  background-attachment: fixed; }
 
 #patient-reviews h2 {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   color: #FFF;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.72); }
 
@@ -26279,6 +26280,9 @@ h4.modal-title {
   font-size: 18px;
   margin-bottom: 20px;
   color: #FFF; }
+
+.owl-carousel.with-carousel-dots .owl-nav [class*=owl-], .owl-carousel .owl-dots, .owl-carousel .owl-nav {
+  display: none; }
 
 body {
   font-family: "Lato", sans-serif; }
