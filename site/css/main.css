@@ -25865,15 +25865,16 @@ a.social-icon.si-colored {
 
 /** PHONE SLUG **/
 .phone-slug {
-  background: blue;
+  background: #FFF;
   padding-top: 25px;
   padding-bottom: 0px; }
 
 .phone-slug h6 {
   font-size: 18px;
-  color: #FFF;
+  color: #4E4C48;
   line-height: 19px;
   font-weight: 400;
+  font-family: 'PT Sans Narrow', sans-serif;
   margin-bottom: 4px; }
 
 .phone-slug .new-hotline {
@@ -25882,22 +25883,25 @@ a.social-icon.si-colored {
   line-height: 25px; }
 
 .phone-slug .new-hotline a {
-  color: #FFF; }
+  color: #E17009;
+  font-size: 30px; }
 
 .device-xs .phone-slug .new-hotline, .device-xxs .phone-slug .new-hotline {
   margin-bottom: 20px; }
 
 .phone-slug .old-hotline {
   font-size: 21px;
-  color: #FFF;
-  margin-top: 15px; }
+  color: #4E4C48;
+  margin-top: 15px;
+  line-height: 25px !important; }
 
 .phone-slug .old-hotline a {
-  color: #FFF;
-  font-weight: 700; }
+  color: #E17009;
+  font-weight: 700;
+  font-size: 24px; }
 
 .phone-slug .col-sm-6.tleft {
-  border-left: 1px solid #FFF; }
+  border-left: 1px solid #AFA59C; }
 
 .phone-slug .button {
   margin: 2.5px 0; }
@@ -25910,7 +25914,7 @@ a.social-icon.si-colored {
 .device-xs .phone-slug h6, .device-xxs .phone-slug h6 {
   font-size: 24px;
   font-weight: 300;
-  margin-bottom: 15px; }
+  margin-bottom: 10px; }
 
 .device-xs .phone-slug .col-sm-6.tright, .device-xxs .phone-slug .col-sm-6.tright {
   text-align: center !important; }
@@ -25919,10 +25923,16 @@ a.social-icon.si-colored {
   text-align: center !important;
   border-left: none; }
 
-.device-xs .old-hotline, .device-xxs .old-hotline {
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 35px !important; }
+#phone-slug-2 .phone-slug .new-hotline a {
+  font-size: 32px; }
+
+#phone-slug-2 h6 {
+  color: #34260A; }
+
+#phone-slug-2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #F8F6F4; }
 
 /** Contact Modal **/
 .form-error {
