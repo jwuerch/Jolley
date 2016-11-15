@@ -26250,6 +26250,36 @@ h4.modal-title {
 #meet-the-doctors > div > div:nth-child(3) {
   padding-top: 40px; }
 
+#patient-reviews {
+  padding: 80px;
+  background: url("../images/reviews-bkgd.jpg"); }
+
+#patient-reviews h2 {
+  padding-bottom: 30px;
+  color: #FFF;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.72); }
+
+.star-set {
+  margin-bottom: 20px; }
+
+.icon-star3 {
+  color: #FFD700;
+  font-size: 36px;
+  margin: 0 1px; }
+
+#patient-reviews h4 {
+  font-family: 'PT Serif', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #FFF;
+  margin-bottom: 20px; }
+
+#patient-reviews p {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #FFF; }
+
 body {
   font-family: "Lato", sans-serif; }
 
@@ -26265,7 +26295,7 @@ h3 {
   font-size: 36px; }
 
 h4 {
-  font-size: 28px; }
+  font-size: 26px; }
 
 h5 {
   font-size: 24px; }
