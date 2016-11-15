@@ -49,10 +49,15 @@ a.social-icon.si-colored {
   position:relative;
 }
 
-#google-map {
-  border-bottom:none;
-}
-
 #footer {
   background: #6588B1;
+}
+
+.si-rounded {
+  background:#FFF;
+  color:#3D5A98;
+}
+
+a.social-icon.si-colored:hover {
+  text-decoration:none;
 }

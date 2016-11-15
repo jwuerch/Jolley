@@ -25863,11 +25863,15 @@ a.social-icon.si-colored {
   justify-content: center;
   position: relative; }
 
-#google-map {
-  border-bottom: none; }
-
 #footer {
   background: #6588B1; }
+
+.si-rounded {
+  background: #FFF;
+  color: #3D5A98; }
+
+a.social-icon.si-colored:hover {
+  text-decoration: none; }
 
 /** PHONE SLUG **/
 .phone-slug {
@@ -26488,6 +26492,9 @@ h4.modal-title {
   line-height: 20px;
   text-decoration: underline; }
 
+.click-map:hover {
+  color: #969300 !important; }
+
 #contact .patient-hotline {
   font-size: 18px;
   color: #4E4C48;
@@ -26586,3 +26593,6 @@ p {
 
 .content-wrap {
   padding: 0; }
+
+#google-map {
+  border-bottom: none !important; }
