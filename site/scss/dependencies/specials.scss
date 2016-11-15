@@ -1,19 +1,18 @@
 /** SPECIALS **/
 
-$section-background:gray;
-$h2-color: #674C12;
-$specials-1-color: #E59908;
-$specials-2-color: #106547;
-$specials-3-color: #52A3BF;
-$save-font-family:'Lato', sans-serif;
-$p-color: red;
+$h2-color: #FFF;
+$specials-1-color: #93649D;
+$specials-2-color: #969300;
+$specials-3-color: #6588B1;
+$p-color: #4E4C48;
 
 
 .section-specials {
   padding-top:50px;
   padding-bottom:20px;
-  background:$section-background;
+  background-image:url('../images/specials-bkgd.jpg');
   background-size:cover;
+  background-attachment:fixed;
 }
 .section-specials h2 {
   margin-bottom:0;
@@ -21,6 +20,8 @@ $p-color: red;
   color:$h2-color;
   font-weight:700;
   line-height:50px !important;
+  /* Limited Time Fall Sp: */
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.72);
 }
 
 .specials-1 {
@@ -47,18 +48,19 @@ $p-color: red;
 }
 .specials-row h5 {
   font-size:36px;
-  color:#FFF;
-  font-weight:800;
+  font-weight:700;
   line-height:40px !important;
-
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #FFFFFF;
+  letter-spacing: 0;
 }
 .specials-row p {
   color:$p-color;
   font-size:18px;
-  margin-bottom:0px;
   line-height:25px !important;
   margin-top:20px;
-  margin-bottom:10px;
+  margin-bottom:30px;
+  font-family:'PT Sans Narrow', sans-serif;
 }
 .specials-label {
   font-size:14px;
@@ -68,18 +70,17 @@ $p-color: red;
   font-size:18px;
   text-transform:uppercase;
   background:none;
-  font-family:$save-font-family;
-  font-weight:400;
+  font-family:'PT Sans Narrow', sans-serif;
+  font-weight:700;
 }
 .section-specials .col-md-4 {
-  border-radius:8px;
+  border-radius:16px;
   padding:0;
   margin-left:20px;
   margin-right:20px;
   padding-bottom:20px;
   background:#FFF;
   margin-bottom:50px;
-  opacity:.85
 }
 .section-specials .container {
   padding-left:0;
@@ -92,7 +93,7 @@ $p-color: red;
 .specials-top {
   height:196px;
   padding-top:15px;
-  border-radius:8px 8px 0px 0px;
+  border-radius:16px 16px 0px 0px;
 }
 .specials-circle {
   position:relative;
@@ -116,12 +117,13 @@ $p-color: red;
   font-size:84px;
   color:#FFF;
   font-weight:700;
+  font-family: 'PT Sans Narrow,', sans-serif;
 }
 .dollar {
   font-size:36px;
   color:#FFF;
   top:-37.5px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   position:relative;
 
 }
@@ -143,9 +145,11 @@ $p-color: red;
   font-size:44px;
 }
 .section-specials .col-xs-12 p {
-  color:#CCA75D;
+  color:#FFF;
   font-size:32px;
-  font-weight:700;
+  font-weight:400;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.72);
 }
 
 .device-xs #fall-specials h2, .device-xxs #fall-specials h2 {

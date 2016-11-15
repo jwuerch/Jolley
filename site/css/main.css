@@ -25962,71 +25962,75 @@ h4.modal-title {
 .section-specials {
   padding-top: 50px;
   padding-bottom: 20px;
-  background: gray;
-  background-size: cover; }
+  background-image: url("../images/specials-bkgd.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
 
 .section-specials h2 {
   margin-bottom: 0;
   font-size: 48px;
-  color: #674C12;
+  color: #FFF;
   font-weight: 700;
-  line-height: 50px !important; }
+  line-height: 50px !important;
+  /* Limited Time Fall Sp: */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.72); }
 
 .specials-1 {
-  background: #E59908;
-  color: #E59908; }
+  background: #93649D;
+  color: #93649D; }
 
 .specials-1.specials-circle {
-  background: #E59908; }
+  background: #93649D; }
 
 .specials-2 {
-  background: #106547;
-  color: #106547; }
+  background: #969300;
+  color: #969300; }
 
 .specials-2.specials-circle {
-  background: #106547; }
+  background: #969300; }
 
 .specials-3 {
-  background: #52A3BF;
-  color: #52A3BF; }
+  background: #6588B1;
+  color: #6588B1; }
 
 .specials-3.specials-circle {
-  background: #52A3BF; }
+  background: #6588B1; }
 
 .specials-row h5 {
   font-size: 36px;
-  color: #FFF;
-  font-weight: 800;
-  line-height: 40px !important; }
+  font-weight: 700;
+  line-height: 40px !important;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #FFFFFF;
+  letter-spacing: 0; }
 
 .specials-row p {
-  color: red;
+  color: #4E4C48;
   font-size: 18px;
-  margin-bottom: 0px;
   line-height: 25px !important;
   margin-top: 20px;
-  margin-bottom: 10px; }
+  margin-bottom: 30px;
+  font-family: 'PT Sans Narrow', sans-serif; }
 
 .specials-label {
   font-size: 14px;
-  color: red; }
+  color: #4E4C48; }
 
 .specials-save {
   font-size: 18px;
   text-transform: uppercase;
   background: none;
-  font-family: "Lato", sans-serif;
-  font-weight: 400; }
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 700; }
 
 .section-specials .col-md-4 {
-  border-radius: 8px;
+  border-radius: 16px;
   padding: 0;
   margin-left: 20px;
   margin-right: 20px;
   padding-bottom: 20px;
   background: #FFF;
-  margin-bottom: 50px;
-  opacity: .85; }
+  margin-bottom: 50px; }
 
 .section-specials .container {
   padding-left: 0;
@@ -26039,7 +26043,7 @@ h4.modal-title {
 .specials-top {
   height: 196px;
   padding-top: 15px;
-  border-radius: 8px 8px 0px 0px; }
+  border-radius: 16px 16px 0px 0px; }
 
 .specials-circle {
   position: relative;
@@ -26062,13 +26066,14 @@ h4.modal-title {
 .price {
   font-size: 84px;
   color: #FFF;
-  font-weight: 700; }
+  font-weight: 700;
+  font-family: 'PT Sans Narrow,', sans-serif; }
 
 .dollar {
   font-size: 36px;
   color: #FFF;
   top: -37.5px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   position: relative; }
 
 .device-md .specials-row p, .device-sm .specials-row p, .device-xs .specials-row p, .device-xxs .specials-row p {
@@ -26086,9 +26091,11 @@ h4.modal-title {
   font-size: 44px; }
 
 .section-specials .col-xs-12 p {
-  color: #CCA75D;
+  color: #FFF;
   font-size: 32px;
-  font-weight: 700; }
+  font-weight: 400;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.72); }
 
 .device-xs #fall-specials h2, .device-xxs #fall-specials h2 {
   margin-bottom: 20px; }
@@ -26200,6 +26207,39 @@ h4.modal-title {
   background-position-x: 20%;
   background-position-y: 0%; }
 
+#meet-the-doctors h2 {
+  color: #34260A;
+  margin-bottom: 40px; }
+
+#meet-the-doctors {
+  padding: 60px 0;
+  background: url("../images/section-tree-bkg.png");
+  background-size: cover;
+  padding-bottom: 80px; }
+
+#meet-the-doctors h3 {
+  color: #969300;
+  font-weight: 700;
+  line-height: 30px !important;
+  margin-bottom: 20px; }
+
+#meet-the-doctors .img-wrap {
+  background: #D8D8D8;
+  width: 313px;
+  height: 324px;
+  border: 1px solid #333; }
+
+#meet-the-doctors p {
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: #4E4C48; }
+
+.title {
+  font-size: 26px; }
+
+#meet-the-doctors > div > div:nth-child(3) {
+  padding-top: 40px; }
+
 body {
   font-family: "Lato", sans-serif; }
 
@@ -26207,7 +26247,9 @@ h1 {
   font-size: 64px; }
 
 h2 {
-  font-size: 48px; }
+  font-size: 48px;
+  font-family: 'PT Serif', sans-serif;
+  font-weight: 700; }
 
 h3 {
   font-size: 36px; }
@@ -26222,7 +26264,8 @@ h6 {
   font-size: 20px; }
 
 p {
-  font-size: 18px; }
+  font-size: 18px;
+  font-family: 'PT Sans Narrow', sans-serif; }
 
 .button {
   background: #E17009;
@@ -26236,7 +26279,7 @@ p {
   border-radius: 39px; }
 
 .button:hover {
-  background: gray; }
+  background: #B55E0F; }
 
 .content-wrap {
   padding: 0; }

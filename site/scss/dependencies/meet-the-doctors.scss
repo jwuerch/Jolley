@@ -1,0 +1,36 @@
+#meet-the-doctors h2 {
+  color:#34260A;
+  margin-bottom:40px;
+}
+#meet-the-doctors {
+  padding:60px 0;
+  background:url('../images/section-tree-bkg.png');
+  background-size:cover;
+  padding-bottom:80px;
+}
+#meet-the-doctors h3 {
+  color:#969300;
+  font-weight:700;
+  line-height:30px !important;
+  margin-bottom:20px;
+}
+
+#meet-the-doctors .img-wrap {
+  background:#D8D8D8;
+  width:313px;
+  height:324px;
+  border:1px solid #333;
+}
+#meet-the-doctors p {
+  line-height:24px;
+  margin-bottom:20px;
+  color:#4E4C48;
+}
+
+.title {
+  font-size:26px;
+}
+
+#meet-the-doctors > div > div:nth-child(3) {
+  padding-top:40px;
+}
