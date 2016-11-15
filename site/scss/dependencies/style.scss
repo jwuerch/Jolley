@@ -2373,7 +2373,7 @@ body:not(.device-touch) #page-menu nav li a {
 
 
 .side-header #header {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 10;
@@ -2512,7 +2512,7 @@ body:not(.device-touch) #page-menu nav li a {
 }
 
 .side-header:not(.open-header) #wrapper {
-	margin: 0;
+	margin: 0 0 0 260px!important;
 	width: auto !important;
 }
 
