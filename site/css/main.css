@@ -25863,7 +25863,7 @@ a.social-icon.si-colored {
   justify-content: center;
   position: relative; }
 
-#footer {
+#copyrights {
   background: #6588B1; }
 
 .si-rounded {
@@ -26419,13 +26419,14 @@ h4.modal-title {
   color: #34260A;
   letter-spacing: 0;
   line-height: 41px;
-  margin-bottom: 10px; }
+  margin-bottom: 20px; }
 
-#services .center .p {
+#services > div > div.center > p {
   font-size: 26px;
   color: #34260A;
   letter-spacing: 0;
-  line-height: 20px; }
+  line-height: 20px;
+  margin-bottom: 50px; }
 
 #services h4 {
   font-family: "PT Sans Narrow", sans-serif;
@@ -26549,6 +26550,9 @@ h4.modal-title {
 #contact .col-xs-8 {
   text-align: left;
   padding-left: 50px; }
+
+.button-2:hover {
+  text-shadow: none; }
 
 body {
   font-family: "Lato", sans-serif; }
