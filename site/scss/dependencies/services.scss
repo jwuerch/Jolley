@@ -1,0 +1,51 @@
+#services {
+  padding-top:60px;
+  background-image:url('../images/section-tree-bkg.png');
+  background-size:cover;
+  background-position:100% 100%;
+}
+
+#services h2 {
+  color: #34260A;
+  letter-spacing: 0;
+  line-height: 41px;
+  margin-bottom:10px;
+}
+
+#services .center .p {
+  font-size: 26px;
+  color: #34260A;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+#services h4 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 26px;
+  color: #969300;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top:15px !important;
+  font-weight:400 !important;
+  margin-bottom:15px;
+}
+#services .col-sm-3 p:nth-child(3) {
+  min-height:115px;
+  margin-bottom:10px;
+}
+#services p {
+  font-size: 16px;
+  color: #4E4C48;
+  letter-spacing: 0;
+  line-height: 20px;
+  font-weight:400;
+  line-height:23px !important;
+}
+#services .read-more {
+  font-size: 16px;
+  color: #969300;
+  letter-spacing: 0;
+  line-height: 20px;
+  text-decoration:underline;
+
+}
