@@ -76,3 +76,16 @@
   background-size:contain;
   background-position-x:100%;
 }
+
+.device-sm #header-wrap > div > div.tleft, .device-xs #header-wrap > div > div.tleft, .device-xxs #header-wrap > div > div.tleft {
+  display:none;
+}
+#primary-menu-trigger {
+  font-size:26px;
+  color:#000;
+}
+
+.device-sm .side-header #header, .device-xs .side-header #header, .device-xxs {
+  background:#FFF;
+  background-image:none;
+}
