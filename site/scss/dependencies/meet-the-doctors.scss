@@ -34,3 +34,8 @@
 #meet-the-doctors > div > div:nth-child(3) {
   padding-top:40px;
 }
+
+.device-md #meet-the-doctors .img-wrap, .device-sm #meet-the-doctors .img-wrap, .device-xs #meet-the-doctors .img-wrap, .device-xxs #meet-the-doctors .img-wrap {
+  margin:0 auto;
+  margin-bottom:20px;
+}

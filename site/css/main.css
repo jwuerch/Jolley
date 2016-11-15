@@ -26260,7 +26260,7 @@ h4.modal-title {
   line-height: 22px;
   text-shadow: 2px 2px 6px #0A2407;
   font-weight: 400;
-  margin-bottom: 35px; }
+  margin-bottom: 45px; }
 
 #slide-3 h4 {
   font-family: "PT Sans Narrow", sans-serif;
@@ -26308,6 +26308,10 @@ h4.modal-title {
 #meet-the-doctors > div > div:nth-child(3) {
   padding-top: 40px; }
 
+.device-md #meet-the-doctors .img-wrap, .device-sm #meet-the-doctors .img-wrap, .device-xs #meet-the-doctors .img-wrap, .device-xxs #meet-the-doctors .img-wrap {
+  margin: 0 auto;
+  margin-bottom: 20px; }
+
 #patient-reviews {
   padding: 80px;
   background: url("../images/reviews-bkgd.jpg");
@@ -26341,6 +26345,59 @@ h4.modal-title {
 
 .owl-carousel.with-carousel-dots .owl-nav [class*=owl-], .owl-carousel .owl-dots, .owl-carousel .owl-nav {
   display: none; }
+
+#no-insurance h2 {
+  font-size: 64px;
+  color: #E17009;
+  letter-spacing: 0;
+  margin-bottom: 20px;
+  line-height: 41px; }
+
+#no-insurance h3 {
+  font-weight: 700;
+  font-family: "PT Serif", sans-serif;
+  font-size: 33px;
+  color: #E17009;
+  letter-spacing: 0;
+  line-height: 41px;
+  margin-bottom: 40px; }
+
+#no-insurance h4 {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 26px;
+  color: #34260A;
+  letter-spacing: 0;
+  line-height: 20px;
+  font-weight: 400; }
+
+#no-insurance h5 {
+  font-family: "PT Serif", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #E17009;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-bottom: 30px; }
+
+#no-insurance p {
+  margin-bottom: 0px;
+  font-size: 21px;
+  color: #34260A;
+  letter-spacing: 0;
+  line-height: 36px; }
+
+#no-insurance {
+  padding: 60px 0;
+  background-image: url("../images/membership-bkgd.jpg");
+  background-size: cover; }
+
+#no-insurance .button {
+  margin-top: 35px;
+  padding-left: 60px;
+  padding-right: 60px; }
+
+#no-insurance > div > div > div.col-sm-5.center {
+  margin-top: 50px; }
 
 body {
   font-family: "Lato", sans-serif; }
