@@ -69,7 +69,7 @@
   margin-bottom:20px;
 }
 .side-header #header {
-  background:url('../images/tree-navigation.png');
+  background-image:url('../images/tree-navigation.png');
   background-repeat:no-repeat;
   background-color:#F8F6F4;
   background-position-y:100%;
@@ -85,7 +85,12 @@
   color:#000;
 }
 
-.device-sm .side-header #header, .device-xs .side-header #header, .device-xxs {
+.device-sm .side-header #header, .device-xs .side-header #header, .device-xxs .side-header #header {
+  background:#FFF;
+  background-image:none;
+}
+
+.device-sm #header-wrap, .device-xs #header-wrap, .device-xxs #header-wrap {
   background:#FFF;
   background-image:none;
 }

@@ -25816,7 +25816,7 @@ Copyright (c) 2014 Daniel Eden
   margin-bottom: 20px; }
 
 .side-header #header {
-  background: url("../images/tree-navigation.png");
+  background-image: url("../images/tree-navigation.png");
   background-repeat: no-repeat;
   background-color: #F8F6F4;
   background-position-y: 100%;
@@ -25830,7 +25830,11 @@ Copyright (c) 2014 Daniel Eden
   font-size: 26px;
   color: #000; }
 
-.device-sm .side-header #header, .device-xs .side-header #header, .device-xxs {
+.device-sm .side-header #header, .device-xs .side-header #header, .device-xxs .side-header #header {
+  background: #FFF;
+  background-image: none; }
+
+.device-sm #header-wrap, .device-xs #header-wrap, .device-xxs #header-wrap {
   background: #FFF;
   background-image: none; }
 
@@ -26133,6 +26137,9 @@ h4.modal-title {
 
 .device-xs .section-specials .col-xs-12 p, .device-xxs .section-specials .col-xs-12 p {
   line-height: 40px !important; }
+
+.device-xs #specials h2, .device-xxs #specials h2 {
+  margin-bottom: 20px; }
 
 /** CONTACT **/
 #contact-form-overlay-mini {
@@ -26614,3 +26621,6 @@ p {
 
 #google-map {
   border-bottom: none !important; }
+
+.device-xxs section h2 {
+  line-height: 50px !important; }
