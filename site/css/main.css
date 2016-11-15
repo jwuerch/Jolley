@@ -25837,7 +25837,7 @@ a.social-icon.si-colored {
   color: #FFF;
   font-size: 14px;
   font-weight: 300;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-weight: 300; }
 
 .device-xs #copyrights .col_half:last-child, .device-xxs #copyrights .col_half:last-child {
@@ -25862,6 +25862,12 @@ a.social-icon.si-colored {
   float: none !important;
   justify-content: center;
   position: relative; }
+
+#google-map {
+  border-bottom: none; }
+
+#footer {
+  background: #6588B1; }
 
 /** PHONE SLUG **/
 .phone-slug {
@@ -26463,7 +26469,79 @@ h4.modal-title {
   background: #F4F2EF;
   border: 2px solid #6588B1;
   border-radius: 39px;
-  padding-top: 10px; }
+  padding-top: 12px; }
+
+#patient-forms p {
+  line-height: 23px !important; }
+
+#contact .address {
+  font-size: 18px;
+  color: #4E4C48;
+  letter-spacing: 0;
+  margin-bottom: 20px;
+  line-height: 20px; }
+
+#contact .click-map {
+  font-size: 18px;
+  color: #969300;
+  letter-spacing: 0;
+  line-height: 20px;
+  text-decoration: underline; }
+
+#contact .patient-hotline {
+  font-size: 18px;
+  color: #4E4C48;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 0; }
+
+#contact .text-phone-1, #contact .text-phone-1 a {
+  color: #E17009;
+  font-size: 30px;
+  font-weight: 700; }
+
+#contact .button {
+  border-radius: 39px;
+  margin-bottom: 25px; }
+
+#contact .patient-hotline-old {
+  font-size: 16px;
+  color: #4E4C48;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-bottom: 0; }
+
+#contact .text-phone-2, #contact .text-phone-2 a {
+  color: #E17009;
+  font-size: 24px;
+  font-weight: 700; }
+
+#contact .office-hours {
+  font-size: 21px;
+  color: #969300;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+  font-weight: 700;
+  margin-bottom: 5px; }
+
+#contact .hour {
+  font-size: 18px;
+  color: #4E4C48;
+  margin-bottom: 0; }
+
+#contact img {
+  margin-bottom: -5px; }
+
+#contact {
+  max-height: 800px; }
+
+#contact .col-xs-4 {
+  text-align: left;
+  padding-left: 60px; }
+
+#contact .col-xs-8 {
+  text-align: left;
+  padding-left: 50px; }
 
 body {
   font-family: "Lato", sans-serif; }

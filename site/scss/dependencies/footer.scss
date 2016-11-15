@@ -18,7 +18,7 @@ a.social-icon.si-colored {
   color:$font-color;
   font-size:14px;
   font-weight:300;
-  font-family:'Roboto Condensed', sans-serif;
+  font-family:'PT Sans Narrow', sans-serif;
   font-weight:300;
 }
 
@@ -47,4 +47,12 @@ a.social-icon.si-colored {
   float:none !important;
   justify-content:center;
   position:relative;
+}
+
+#google-map {
+  border-bottom:none;
+}
+
+#footer {
+  background: #6588B1;
 }
