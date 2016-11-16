@@ -26545,6 +26545,10 @@ h4.modal-title {
 .img-hover:before {
   cursor: pointer; }
 
+#services h4:hover, #services .read-more:hover {
+  text-decoration: underline;
+  cursor: pointer; }
+
 #patient-forms {
   padding: 60px 0;
   background-image: linear-gradient(-90deg, #FFFFFF 0%, #CCD6D2 85%); }

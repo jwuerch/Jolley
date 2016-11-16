@@ -93,3 +93,9 @@
 .img-hover:before {
   cursor:pointer;
 }
+
+#services h4:hover, #services .read-more:hover {
+  text-decoration:underline;
+  cursor:pointer;
+
+}
