@@ -26491,11 +26491,16 @@ h4.modal-title {
   min-height: 115px;
   margin-bottom: 10px; }
 
+.device-md #services .col-sm-3 p:nth-child(3) {
+  min-height: 161px; }
+
+.device-sm #services .col-sm-3 p:nth-child(3), .device-xs #services .col-sm-3 p:nth-child(3), .device-xxs #services .col-sm-3 p:nth-child(3) {
+  min-height: auto; }
+
 #services p {
   font-size: 16px;
   color: #4E4C48;
   letter-spacing: 0;
-  line-height: 20px;
   font-weight: 400;
   line-height: 23px !important; }
 
@@ -26505,6 +26510,9 @@ h4.modal-title {
   letter-spacing: 0;
   line-height: 20px;
   text-decoration: underline; }
+
+.device-xxs #services h2 {
+  font-size: 36px; }
 
 #patient-forms {
   padding: 60px 0;
