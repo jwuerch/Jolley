@@ -1,0 +1,33 @@
+/* Service Modals */
+
+#services a:hover {
+  text-decoration:none;
+}
+
+.service-modal .modal-body, .service-modal .modal-header {
+  background:#FFF;
+}
+.service-modal h4 {
+  color:#768E44;
+}
+.service-modal .modal-header {
+  border-radius:3px 3px 0px 0px;
+}
+.service-modal .modal-body {
+  border-radius:0px 0px 3px 3px;
+}
+.service-modal-text p {
+  line-height:25px;
+  font-size:16px;
+  margin-bottom:15px;
+}
+.service-modal img {
+  margin-bottom:10px;
+}
+.oc-item:hover {
+  cursor:pointer;
+}
+
+div.modal-body > div.img-wrap {
+  text-align:center;
+}

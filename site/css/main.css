@@ -26528,7 +26528,8 @@ h4.modal-title {
     width: 100%;
     height: 100%;
     z-index: 10;
-    background-color: rgba(0, 0, 0, 0.37); }
+    background-color: rgba(0, 0, 0, 0.37);
+    cursor: pointer; }
   .img-hover:hover:after {
     content: "+";
     position: absolute;
@@ -26538,7 +26539,8 @@ h4.modal-title {
     font-size: 60px;
     left: 50%;
     margin-left: -15px;
-    z-index: 11; }
+    z-index: 11;
+    cursor: pointer; }
 
 .img-hover:before {
   cursor: pointer; }
@@ -26642,6 +26644,36 @@ h4.modal-title {
 
 .button-2:hover {
   text-shadow: none; }
+
+/* Service Modals */
+#services a:hover {
+  text-decoration: none; }
+
+.service-modal .modal-body, .service-modal .modal-header {
+  background: #FFF; }
+
+.service-modal h4 {
+  color: #768E44; }
+
+.service-modal .modal-header {
+  border-radius: 3px 3px 0px 0px; }
+
+.service-modal .modal-body {
+  border-radius: 0px 0px 3px 3px; }
+
+.service-modal-text p {
+  line-height: 25px;
+  font-size: 16px;
+  margin-bottom: 15px; }
+
+.service-modal img {
+  margin-bottom: 10px; }
+
+.oc-item:hover {
+  cursor: pointer; }
+
+div.modal-body > div.img-wrap {
+  text-align: center; }
 
 body {
   font-family: "Lato", sans-serif; }
