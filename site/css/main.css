@@ -26517,6 +26517,32 @@ h4.modal-title {
 .device-xxs #services h2 {
   font-size: 36px; }
 
+.img-hover {
+  display: inline-block;
+  position: relative; }
+  .img-hover:hover:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.37); }
+  .img-hover:hover:after {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    margin-top: -45px;
+    color: white;
+    font-size: 60px;
+    left: 50%;
+    margin-left: -15px;
+    z-index: 11; }
+
+.img-hover:before {
+  cursor: pointer; }
+
 #patient-forms {
   padding: 60px 0;
   background-image: linear-gradient(-90deg, #FFFFFF 0%, #CCD6D2 85%); }

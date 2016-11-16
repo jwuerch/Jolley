@@ -61,3 +61,33 @@
 .device-xxs #services h2 {
   font-size:36px;
 }
+
+.img-hover {
+  display: inline-block;
+  position: relative;
+  &:hover:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.37);
+  }
+  &:hover:after {
+    content: "+";
+    position: absolute;
+    top: 50%;
+    margin-top: -45px;
+    color: white;
+    font-size: 60px;
+    left: 50%;
+    margin-left: -15px;
+    z-index: 11;
+  }
+}
+
+.img-hover:before {
+  cursor:pointer;
+}
