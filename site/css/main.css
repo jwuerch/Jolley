@@ -26536,6 +26536,9 @@ h4.modal-title {
 #patient-forms p {
   line-height: 23px !important; }
 
+#patient-forms .button-2:hover {
+  background: #EDEBE8; }
+
 #contact .address {
   font-size: 18px;
   color: #4E4C48;
