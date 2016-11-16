@@ -8,7 +8,7 @@
 #services h2 {
   color: #34260A;
   letter-spacing: 0;
-  line-height: 41px;
+  line-height: 55px;
   margin-bottom:20px;
 }
 
@@ -30,15 +30,18 @@
   font-weight:400 !important;
   margin-bottom:15px;
 }
-#services .col-sm-3 p:nth-child(3) {
-  min-height:115px;
+.device-sm #services h4 {
+  font-size:20px;
+}
+.device-lg #services .col-sm-3 p:nth-child(3) {
+  min-height:140px;
   margin-bottom:10px;
 }
 .device-md #services .col-sm-3 p:nth-child(3) {
-  min-height:161px;
+  min-height:180px;
 }
-.device-sm #services .col-sm-3 p:nth-child(3), .device-xs #services .col-sm-3 p:nth-child(3), .device-xxs #services .col-sm-3 p:nth-child(3) {
-  min-height:auto;
+.device-sm #services .col-sm-3 p:nth-child(3) {
+  min-height:165px;
 }
 
 #services p {
