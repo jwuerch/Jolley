@@ -25807,11 +25807,11 @@ Copyright (c) 2014 Daniel Eden
 #header .button {
   text-align: center;
   border-radius: 18px !important;
-  padding-left: 25px;
-  padding-right: 25px;
-  width: 100%;
-  padding-bottom: 75px;
-  padding-top: 25px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 85%;
+  padding-bottom: 70px;
+  padding-top: 15px;
   line-height: 30px;
   margin-bottom: 20px; }
 
@@ -26398,7 +26398,7 @@ h4.modal-title {
   font-size: 26px;
   color: #34260A;
   letter-spacing: 0;
-  line-height: 20px;
+  line-height: 28px;
   font-weight: 400; }
 
 #no-insurance h5 {
@@ -26429,6 +26429,34 @@ h4.modal-title {
 
 #no-insurance > div > div > div.col-sm-5.center {
   margin-top: 50px; }
+
+@media (max-width: 1350px) {
+  #no-insurance {
+    background-position-x: 50%; }
+  #no-insurance h2 {
+    font-size: 40px; }
+  #no-insurance h3 {
+    font-size: 26px; }
+  #no-insurance h4 {
+    font-size: 24px; }
+  #no-insurance h5 {
+    font-size: 26px; }
+  #no-insurance p {
+    font-size: 18px; }
+  .device-md #no-insurance, .device-sm #no-insurance, .device-xs #no-insurance, .device-xxs #no-insurance {
+    background: #CCD6D2; } }
+
+.device-xxs #no-insurance h3 {
+  font-size: 24px; }
+
+.device-xxs #no-insurance h2 {
+  font-size: 36px; }
+
+.device-xxs #no-insurance h4 {
+  font-size: 22px; }
+
+.device-xxs #no-insurance h5 {
+  font-size: 24px; }
 
 #services {
   padding-top: 60px;

@@ -120,7 +120,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" id="slide-1" style="background-image: url('images/slide1.jpg');">
                         <div class="container clearfix">
-                            <div class="slider-caption slider-caption-right">
+                            <div class="slider-caption slider-caption-right" data-caption-animate="fadeInUp" data-caption-delay="200">
                                 <h2 data-caption-animate="fadeInUp" data-caption-delay="200">Dentistry for<br>Today's Family</h2>
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200">Now Welcoming New Patients</p>
                                 <a class="button" data-caption-animate="fadeInUp" data-caption-delay="200">NEW PATIENT OFFERS</a>
@@ -316,7 +316,7 @@
                             <i class="icon-star3"></i>
                         </div>
 
-                        <div id="oc-slider" class="owl-carousel carousel-widget" data-margin="0" data-items="1" data-loop="true" data-animate-in="zoomIn" data-speed="450" data-animate-out="fadeOut" data-autoplay="5000">
+                        <div id="oc-slider" class="owl-carousel carousel-widget" data-margin="0" data-items="1" data-loop="true" data-animate-in="zoomIn" data-speed="450" data-animate-out="fadeOut" data-autoplay="3000">
                             <div>
                                 <h4>Absolutely the best dental visit&nbsp;ever.</h4>
                                 <p>Absolutely the best dental visit ever. I wasn't 'sold' on something that I didn't need. In addition, Dr Jolley has worked on many small mouth of which mine is such. That is very helpful knowing that. It gives me greater confidence in his&nbsp;ability.</p>
@@ -408,16 +408,26 @@
                 </div>
             </section>
 
-            <section id="no-insurance">
+            <section id="no-insurance" class="no-insurance">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-7">
+                        <div class="col-sm-7 hidden-md hidden-sm hidden-xs hidden-xxs">
 
                         </div>
-                        <div class="col-sm-5 center">
+                        <div class="col-sm-5 center hidden-md hidden-sm hidden-xs hidden-xxs">
                             <h2>No&nbsp;Insurance?</h2>
                             <h3>Our&nbsp;Patients&nbsp;Don't&nbsp;Need&nbsp;It!</h3>
-                            <h4>Join the Craig R. Jolley Membership Club</h4>
+                            <h4>Join the Craig R. Jolley Membership&nbsp;Club</h4>
+                            <h5>Get your preventive care <br>for a low monthly fee</h5>
+                            <p>Exclusively for our uninsured patients</p>
+                            <p>Make easy payments for your preventive care</p>
+                            <p>Save money on your treatment</p>
+                            <a class="button">LEARN MORE</a>
+                        </div>
+                        <div class="center hidden-lg">
+                            <h2>No&nbsp;Insurance?</h2>
+                            <h3>Our&nbsp;Patients&nbsp;Don't&nbsp;Need&nbsp;It!</h3>
+                            <h4>Join the Craig R. Jolley Membership&nbsp;Club</h4>
                             <h5>Get your preventive care <br>for a low monthly fee</h5>
                             <p>Exclusively for our uninsured patients</p>
                             <p>Make easy payments for your preventive care</p>
@@ -426,6 +436,10 @@
                         </div>
                     </div>
                 </div>
+            </section>
+            <section id="no-insurance-mobile" class="no-insurance hidden-lg">
+                <h6 class="hidden">Empty Tag</h6>
+                <img src="images/membership-mobile.jpg" alt="Membership Club">
             </section>
 
             <section id="services">
